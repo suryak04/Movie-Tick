@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Tick</title>
+	<link rel="stylesheet" type="text/css" href="css/movie_tick.css">
+	<script type="text/javascript" src="js/movie_tick.js"></script>
+</head>
+<body style="background-image: url(imge/background.jpg);">
+	<h1>MOVIE TICK</h1>
+	<div id="navi">
+		<button tabindex="1" class="nav" onclick="english()">English</button>
+		<button tabindex="2" class="nav" onclick="hindi()">Hindi</button>
+		<button tabindex="3" class="nav" onclick="telugu()">Telugu</button>
+		<button tabindex="4" class="nav" onclick="home()">Home</button>
+	</div>
+	<label for="input" id="search">SEARCH for movie</label>
+	<input tabindex="5" type="text" id="input" onkeyup="search()" name="text">
+	<div id = "basic">
+		<p id="root"></p>
+		<div id="english">
+			<p tabindex="6" class="english" id="spiderman" style="background-image: url(imge/spider-man.jpg)">Spider-Man:Far From Home</p>
+			<p tabindex="7" class="english" id="joker" style="background-image: url(imge/joker.jpg)">Joker</p>
+			<p tabindex="8" class="english" id="frozen2" style="background-image: url(imge/frozen-2.jpg)">Frozen 2</p>
+			<p tabindex="9" class="english" id="onward" style="background-image: url(imge/onward.jpg)">Onward</p>
+		</div>
+		<div id="hindi">
+			<p tabindex="10" class="hindi" id="dilbechara" style="background-image: url(imge/dil-bechara.jpg)">Dil Bechara</p>
+			<p tabindex="11" class="hindi" id="gulabositabo" style="background-image: url(imge/gulabo-sitabo.jpg)">Gulabo Sitabo</p>
+			<p tabindex="12" class="hindi" id="kesari" style="background-image: url(imge/kesari.jpg)">Kesari</p>
+			<p tabindex="13" class="hindi" id="83" style="background-image: url(imge/83.jpg)">83</p>
+		</div>
+		<div id="telugu">
+			<p tabindex="14" class="telugu" id="alavaikunthapuramloo" style="background-image: url(imge/ala-vaikunthapuramloo.jpg)">Ala vaikunthapuramlo</p>
+			<p tabindex="15" class="telugu" id="bheeshma" style="background-image: url(imge/bheeshma.jpg)">Bheeshma</p>
+			<p tabindex="16" class="telugu" id="jersey" style="background-image: url(imge/jersey.jpg)">Jersey</p>
+			<p tabindex="17" class="telugu" id="sahoo" style="background-image: url(imge/sahoo.jpg)">Sahoo</p>
+		</div>
+	</div>
+	
+</body>
+</html>
